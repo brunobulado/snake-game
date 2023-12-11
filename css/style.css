@@ -29,8 +29,8 @@ canvas{
 }
 
 .score--value {
-    font-weight: 400;
-    font-size: 4.5rem;
+    font-weight: 700;
+    font-size: 2.5rem;
     display: block;
     margin-top: -10px;
 }
