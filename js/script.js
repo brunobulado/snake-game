@@ -150,7 +150,7 @@ const gameOver = () => {
     menu.style.display = "flex"
     finalScore.innerText = score.innerText
     canvas.style.filter = "blur(2px)"
-    menu.classList = ".span.game-score"
+    menu.classList = "span.game-score"
 
 }
 
