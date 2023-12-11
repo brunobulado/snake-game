@@ -23,7 +23,7 @@ canvas{
 
 .score {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     font-size: 1.8rem;
 }
