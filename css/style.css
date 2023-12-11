@@ -36,6 +36,7 @@ canvas{
 }
 
 .menu-screen {
+    height: 100vh;
     position: absolute;
     display: none;
     flex-direction: column;
