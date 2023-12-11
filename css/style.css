@@ -10,7 +10,7 @@
 body{
     background-color: #191919;
     display: flex;
-    main-height: 100vh;
+    main-height: 50vh;
     main-width: 100vw;
     align-items: center;
     justify-content: center;
