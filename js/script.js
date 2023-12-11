@@ -1,6 +1,6 @@
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
-const scoreFinal = documento.querySelector(".menu-screen > span");
+
 const score = document.querySelector(".score--value");
 const finalScore = document.querySelector(".final-score > span");
 const menu = document.querySelector(".menu-screen");
@@ -150,7 +150,7 @@ const gameOver = () => {
     menu.style.display = "flex"
     finalScore.innerText = score.innerText
     canvas.style.filter = "blur(2px)"
-    scoreFinal.classList = ".span.game-score"
+    menu.classList = ".span.game-score"
 
 }
 
