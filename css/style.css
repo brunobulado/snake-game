@@ -45,12 +45,14 @@ canvas{
 }
 
 .game-over {
+    padding-top: 25%;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 3rem;
 }
 
 .final-score {
+    padding-top: 50%;
     font-weight: 500;
     font-size: 1.5rem;
 }
