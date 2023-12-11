@@ -70,3 +70,6 @@ canvas{
     gap: 5px;
     cursor: pointer;
 }
+.span.game-score {
+    padding-top: 75%;
+}
