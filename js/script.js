@@ -146,7 +146,7 @@ const checkCollision = () => {
 
 const gameOver = () => {
     direction = undefined
-
+    score.style.display = "none"
     menu.style.display = "flex"
     finalScore.innerText = score.innerText
     canvas.style.filter = "blur(2px)"
