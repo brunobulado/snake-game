@@ -45,7 +45,7 @@ canvas{
 }
 
 .game-over {
-    padding-top: 25%;
+    padding-top: 75%;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 3rem;
