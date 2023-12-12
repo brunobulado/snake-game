@@ -63,13 +63,14 @@ canvas{
     font-size: 1rem;
     font-weight: 600;
     color: #333;
-    margin-top: 40px;
+    margin-top: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
     cursor: pointer;
 }
-.span.game-score {
-    padding-top: 75%;
+.game-score > span {
+    position: relative;
+    padding-top: 100px;
 }
