@@ -197,6 +197,6 @@ buttonPlay.addEventListener("click", () => {
     score.innerText = "00"
     menu.style.display = "none"
     canvas.style.filter = "none"
-
+    score.style.display = "block"
     snake = [initialPosition]
 })
