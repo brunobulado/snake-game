@@ -69,7 +69,8 @@ const moveSnake = () => {
     if(!direction) return
     
     const head = snake[snake.length - 1]
-
+    if (score.style.display!=="none") {
+        
     if(direction == "right") {
         snake.push({ x: head.x + size, y: head.y })
     }
@@ -85,7 +86,7 @@ const moveSnake = () => {
     if(direction == "up") {
         snake.push({ x: head.x, y: head.y - size })
     }
-
+    }
     snake.shift()
 }
 
